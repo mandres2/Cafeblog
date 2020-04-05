@@ -17,7 +17,7 @@ To understand python syntax and Django framework.
 * BootStrap v4.4+
 * Microsoft Visual Studios Code v1.43+
 
-## Pre-Requisities
+## Pre-Requisites
 
 
 ## Installation
@@ -36,7 +36,9 @@ To understand python syntax and Django framework.
 ## Developer Log
 4.4 - Established Repository and installed Django Framework, configured the python back-end routes, and implemented front-end UI and CSS via BootStrap
 <br>
-4.5 -
+4.5 - Configuration of admin user and configured Django database.
+<br>
+4.6 -
 
 
 ## License
