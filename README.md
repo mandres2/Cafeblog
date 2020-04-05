@@ -8,7 +8,7 @@ Blog application written in Python combined with the Django Framework.
 
 
 ## Motivation
-To practice writing in python and understanding how the Django framework interacts with the application.
+To understand python syntax and Django framework.
 
 
 ## Technologies Used
@@ -35,6 +35,7 @@ To practice writing in python and understanding how the Django framework interac
 
 ## Developer Log
 4.4 - Established Repository and installed Django Framework, configured the python back-end routes, and implemented front-end UI and CSS via BootStrap
+<br>
 4.5 -
 
 
