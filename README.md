@@ -30,6 +30,9 @@ To practice writing in python and understanding how the Django framework interac
 ## Tests
 
 
+## Author
+**Micah Andres** - [mandres2](https://github.com/mandres2)
+
 ## Developer Log
 4.4 - Established Repository and installed Django Framework
 
