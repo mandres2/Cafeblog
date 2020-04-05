@@ -34,7 +34,8 @@ To practice writing in python and understanding how the Django framework interac
 **Micah Andres** - [mandres2](https://github.com/mandres2)
 
 ## Developer Log
-4.4 - Established Repository and installed Django Framework
+4.4 - Established Repository and installed Django Framework, configured the python back-end routes, and implemented front-end UI and CSS via BootStrap
+4.5 -
 
 
 ## License
