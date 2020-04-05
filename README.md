@@ -8,11 +8,14 @@ Blog-based application written in Python combined with the Django Framework.
 
 
 ## Motivation
+To practice writing in python and understanding how the Django framework interacts with the application.
 
 
 ## Technologies Used
-* Django - 3.0.5+
-
+* Django v3.0.5+
+* Python v3.8.2+
+* BootStrap v4.4+
+* Microsoft Visual Studios Code v1.43+
 
 ## Pre-Requisities
 
