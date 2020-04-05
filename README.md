@@ -36,7 +36,7 @@ To understand python syntax and Django framework.
 ## Developer Log
 4.4 - Established Repository and installed Django Framework, configured the python back-end routes, and implemented front-end UI and CSS via BootStrap
 <br>
-4.5 - Configuration of admin user and configured Django database.
+4.5 - Configuration of admin user and configured Django database. Utilizing .py/Django Shell to transmit data
 <br>
 4.6 -
 
