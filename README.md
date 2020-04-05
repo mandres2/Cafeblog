@@ -1,7 +1,7 @@
 # Cafeblog
 
 ## Synopsis
-Blog-based application written in Python combined with the Django Framework.
+Blog application written in Python combined with the Django Framework.
 
 ## Code Example
 
