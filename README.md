@@ -8,6 +8,7 @@ Blog application written in Python combined with the Django Framework.
 
 
 ## Motivation
+
 To understand python syntax and Django framework.
 
 
