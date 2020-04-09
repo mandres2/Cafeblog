@@ -41,8 +41,11 @@ To understand python syntax and Django framework.
 <br>
 4.5 - Configuration of admin user and configured Django database. Utilizing .py/Django Shell to transmit data
 <br>
-4.6 -
-
+4.6 --> 4.7 - Implemented/Fixed Admin configuration and created login/register pages for user / Debugging
+<br>
+4.8 - Establish route guards and user authentication
+<br>
+4.9
 
 ## License
 
