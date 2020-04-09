@@ -16,6 +16,8 @@ To understand python syntax and Django framework.
 * Python v3.8.2+
 * BootStrap v4.4+
 * Microsoft Visual Studios Code v1.43+
+* django-crispy-forms - Allows developer the control of the rendering behavior of Django forms.
+  * (*Documentation* https://django-crispy-forms.readthedocs.io/en/latest/)
 
 ## Pre-Requisites
 
