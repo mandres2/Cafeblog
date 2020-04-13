@@ -47,7 +47,9 @@ Python Pillow
 <br>
 4.8 - Establish route guards and user authentication
 <br>
-4.9 - Implement a user 1-1 model - (upload profile pic f(x))
+4.9 - Implement a user 1-1 model - (upload profile pic function)
+<br>
+4.12-4.13 - Troubleshoot and configure user profile picture functionality. Created a signals.py file so that when a user signs up it is immediately given a default picture upon viewing the profile.
 
 ## License
 
