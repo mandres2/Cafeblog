@@ -28,12 +28,14 @@ To understand python syntax and Django framework.
 
 
 ## API Reference
-
+Python Pillow
+   * (*Documentation* https://python-pillow.org/)
 
 ## Tests
 
 
 ## Author
+
 **Micah Andres** - [mandres2](https://github.com/mandres2)
 
 ## Developer Log
@@ -45,7 +47,7 @@ To understand python syntax and Django framework.
 <br>
 4.8 - Establish route guards and user authentication
 <br>
-4.9
+4.9 - Implement a user 1-1 model - (upload profile pic f(x))
 
 ## License
 
