@@ -26,11 +26,17 @@ def register(request):
 def profile(request):
     if request.method == 'POST':
         u_form = UserUpdateForm(request.POST, instance=request.user)
+        # update user files
         p_form = ProfileUpdateForm(request.POST, request.FILES, instance=request.user.profile)
 
         if u_form.is_valid() and p_form.is_valid():
+            # This will save the user form and profile update form
             u_form.save()
             p_form.save()
+
+            messages.success(request, f'Your account has been updated.')
+            # POST-REDIRECT PATTERN - This function gives better user experience when using this application
+            return redirect('profile')
 
     else:
         u_form = UserUpdateForm(instance=request.user)
