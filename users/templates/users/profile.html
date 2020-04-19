@@ -10,5 +10,19 @@
             </div>
         </div>
         <!-- FORM HERE -->
+        <!-- enctype will save the image in the background when user submits the form -->
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-4">Profile Info</legend>
+                        {% comment %} This prints out the form that contains all the fields the user has to fill in for registration {% endcomment %}
+                        {% comment %} Note: form.as_p is vanilla CSS that will adjust the spacing of the form fields {% endcomment %}
+                        {{ u_form|crispy }}
+                        {{ p_form|crispy }}
+                </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Update</button>
+            </div>
+        </form>
     </div>
 {% endblock content %}
