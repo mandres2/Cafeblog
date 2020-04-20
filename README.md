@@ -51,7 +51,9 @@ Python Pillow
 <br>
 4.12 --> 4.13 - Troubleshoot and configure user profile picture functionality. Created a signals.py file so that when a user signs up it is immediately given a default picture upon viewing the profile.
 <br>
-4.19 -> Allow users to update information and upload new profile picture
+4.19 - Allow users to update information and upload new profile picture
+<br>
+4.20 - Update, Create, and Delete Blog Post and enable guards and mixers to prevent users to edit/update other user's blog posts
 
 ## License
 
