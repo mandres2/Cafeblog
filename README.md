@@ -53,7 +53,7 @@ Python Pillow
 <br>
 4.19 - Allow users to update information and upload new profile picture
 <br>
-4.20 - Update, Create, and Delete Blog Post and enable guards and mixers to prevent users to edit/update other user's blog posts
+4.20 - Update, Create, and Delete Blog Post and enable guards and mixers to prevent users to edit/update other user's blog posts, Debugging User Registration and Default Picture route
 
 ## License
 
