@@ -16,27 +16,8 @@ class Profile(models.Model):
     def save(self, *args, **kwargs):
         #Parent-class save method
         super().save(*args, **kwargs)
-        # Opens image of current instance
+
         img = Image.open(self.image.path)
-        # Specify size of image
-        # These lines of code will be applied to a bug where the image is rotating. It happens because of the anomaly of the users device
-        #to contain correct Exif data. Exif contains info whether the image is in landscape/portrait mode and Pillow library has the ability
-        # to modify your image based on Exif data.
-
-        try:
-            for orientation in ExifTags.TAGS.keys():
-                if ExifTags.TAGS[orientation] == 'Orientation':
-                    break
-            exif = dict(img._getexif().items())
-
-            if exif[orientation] == 3:
-                img = img.rotate(180, expand=True)
-            elif exif[orientation] == 6:
-                img = img.rotate(270, expand=True)
-            elif exif[orientation] == 8:
-                img = img.rotate(90, expand=True)
-        except (AttributeError, KeyError, IndexError):
-            pass
 
         if img.height > 300 or img.width >300:
             output_size = (300, 300)

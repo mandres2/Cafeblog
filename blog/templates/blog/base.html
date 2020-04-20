@@ -39,44 +39,45 @@
                         <!-- Insert conditional -->
                         {% if user.is_authenticated %}
                         <!-- Put a Logout link when the user log into the application -->
-                        <a class="nav-item nav-link" href="{% url 'profile'%}">Profile</a>
-                        <a class="nav-item nav-link" href="{% url 'logout'%}">Logout</a>
+                            <a class="nav-item nav-link" href="{% url 'post-create'%}">New Post</a>
+                            <a class="nav-item nav-link" href="{% url 'profile'%}">Profile</a>
+                            <a class="nav-item nav-link" href="{% url 'logout'%}">Logout</a>
                         {% else %}
-                        <a class="nav-item nav-link" href="{% url 'login'%}">Login</a>
-                        <a class="nav-item nav-link" href="{% url 'register'%}">Register</a>
+                            <a class="nav-item nav-link" href="{% url 'login'%}">Login</a>
+                            <a class="nav-item nav-link" href="{% url 'register'%}">Register</a>
                         {% endif %}
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main role="main" class="container">
-        <div class="row">
-            <div class="col-md-8">
-                {% if messages %}
-                    {% for message in messages %}
-                    <div class="alert alert-{{ message.tags }}">
-                        {{ message }}
-                    </div>
-                    {% endfor %}
-                {% endif %}
-                {% block content %}{% endblock %}
+<main role="main" class="container">
+    <div class="row">
+        <div class="col-md-8">
+            {% if messages %}
+            {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">
+                {{ message }}
             </div>
-            <div class="col-md-4">
-                <div class="content-section">
-                    <h3>Sidebar</h3>
-                    <p class='text-muted'>You can put any information here you'd like.
-                        <ul class="list-group">
-                            <li class="list-group-item list-group-item-light">Latest Posts</li>
-                            <li class="list-group-item list-group-item-light">Announcements</li>
-                            <li class="list-group-item list-group-item-light">Calendars</li>
-                            <li class="list-group-item list-group-item-light">etc</li>
-                        </ul>
-                    </p>
-                </div>
+            {% endfor %}
+            {% endif %}
+            {% block content %}{% endblock %}
+        </div>
+        <div class="col-md-4">
+            <div class="content-section">
+                <h3>Sidebar</h3>
+                <p class='text-muted'>You can put any information here you'd like.
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-light">Latest Posts</li>
+                        <li class="list-group-item list-group-item-light">Announcements</li>
+                        <li class="list-group-item list-group-item-light">Calendars</li>
+                        <li class="list-group-item list-group-item-light">etc</li>
+                    </ul>
+                </p>
             </div>
         </div>
-    </main>
+    </div>
+</main>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
