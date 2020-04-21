@@ -57,7 +57,7 @@ Python Pillow
 <br>
 4.21 - Imported a tailored JSON data file containing authenticated users and worked on pagination
 <br>
-4.22
+4.22 -
 
 ## License
 
