@@ -55,7 +55,7 @@ Python Pillow
 <br>
 4.20 - Update, Create, and Delete Blog Post and enable guards and mixers to prevent users to edit/update other user's blog posts, Debugging User Registration and Default Picture route
 <br>
-4.21 - Imported a tailored JSON data file containing authenticated users and worked on pagination
+4.21 - Imported a tailored JSON data file via Python Shell containing authenticated users and worked on pagination.
 <br>
 4.22 -
 
