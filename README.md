@@ -1,15 +1,15 @@
 # Cafeblog
 
 ## Synopsis
-Blog application written in Python combined with the Django Framework.
+
+Social Blog application written in .py combined with the Django Framework.
 
 ## Code Example
 
 
-
 ## Motivation
 
-To understand python syntax and Django framework.
+To gain a deeper understanding of Python syntax and utilizing the Django framework.
 
 
 ## Technologies Used
@@ -55,9 +55,13 @@ Python Pillow
 <br>
 4.20 - Update, Create, and Delete Blog Post and enable guards and mixers to prevent users to edit/update other user's blog posts, Debugging User Registration and Default Picture route
 <br>
-4.21 - Imported a tailored JSON data file via Python Shell containing authenticated users and worked on pagination.
+4.21 - Imported a tailored JSON data file via Python Shell containing authenticated users and worked on pagination
 <br>
-4.22 -
+4.22 --> 5.1 - Debugging URL Paths, Reconfiguring Authentication codes and guard routes
+<br>
+5.2 --> 5.3 - Set up user email and password reset
+<br>
+5.4 -> Final touches and polishing up Front-End UI
 
 ## License
 
