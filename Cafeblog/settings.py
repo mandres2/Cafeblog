@@ -20,12 +20,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'hnrcg=u@^()78xr2=ln_-i=0)$s+fv(&k&r%6j@k*jt&zewncn'
+#SECRET_KEY = 'hnrcg=u@^()78xr2=ln_-i=0)$s+fv(&k&r%6j@k*jt&zewncn'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://cafe-blog-1.herokuapp.com/']
 
 
 # Application definition
@@ -34,7 +35,6 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
     'crispy_forms',
-    'django_cleanup',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
