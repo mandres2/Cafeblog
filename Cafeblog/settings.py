@@ -121,6 +121,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+#This line of code is meant for Heroku deployment 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 # Full path where Django will store uploaded files - Will be stored in a file system not a db --> This will be stored in a root container called BASE_DIR in a sub-folder called 'media'
