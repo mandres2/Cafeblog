@@ -2,30 +2,20 @@
 
 ## Synopsis
 
-Social Blog application written in .py combined with the Django Framework.
-
-## Code Example
-
+'Social Blog' application written in .py combined with the Django Framework.
 
 ## Motivation
 
 To gain a deeper understanding of Python syntax and utilizing the Django framework.
 
 
-## Technologies Used
+## Technologies Used / Pre-Requisites
 * Django v3.0.5+
 * Python v3.8.2+
 * BootStrap v4.4+
 * Microsoft Visual Studios Code v1.43+
 * django-crispy-forms - Allows developer the control of the rendering behavior of Django forms.
   * (*Documentation* https://django-crispy-forms.readthedocs.io/en/latest/)
-
-## Pre-Requisites
-
-
-## Installation
-
-
 
 ## API Reference
 Python Pillow
@@ -34,7 +24,6 @@ Python Pillow
 ## Demo
 
 ![alt text](https://github.com/mandres2/Cafeblog/blob/master/img/demo.gif?raw=true)
-
 
 ## Author
 

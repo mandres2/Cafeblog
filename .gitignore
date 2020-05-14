@@ -1,4 +1,5 @@
 .env
+settings.py
 manage.py
 env_vars.py
 posts.json
