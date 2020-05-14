@@ -15,12 +15,10 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#TODO
 
 SECRET_KEY = ['hnrcg=u@^()78xr2=ln_-i=0)$s+fv(&k&r%6j@k*jt&zewncn', os.environ.get('SECRET_KEY')]
 #SECRET_KEY = os.environ.get('SECRET_KEY')
@@ -29,7 +27,6 @@ SECRET_KEY = ['hnrcg=u@^()78xr2=ln_-i=0)$s+fv(&k&r%6j@k*jt&zewncn', os.environ.g
 DEBUG = True
 
 ALLOWED_HOSTS = ['cafe-blog-1.herokuapp.com', '127.0.0.1']
-
 
 # Application definition
 
