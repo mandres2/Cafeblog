@@ -31,7 +31,9 @@ To gain a deeper understanding of Python syntax and utilizing the Django framewo
 Python Pillow
    * (*Documentation* https://python-pillow.org/)
 
-## Tests
+## Demo
+
+![alt text](https://github.com/mandres2/Cafeblog/blob/master/img/demo.gif?raw=true)
 
 
 ## Author
