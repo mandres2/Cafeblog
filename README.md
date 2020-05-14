@@ -62,9 +62,10 @@ Python Pillow
 <br>
 5.2 --> 5.3 - Set up user email and password reset
 <br>
-5.4 -> 5.7 - Final touches and polishing up Front-End UI and deployment of application to Heroku
+5.4 --> 5.7 - Final touches and polishing up Front-End UI and deployment of application to Heroku
 <br>
-5.13 - Recording of demonstration - fixing up bugs and preparation for deployment to AWS Cloud.
+5.13 - Recording of demonstration - fixing up bugs and preparation for deployment to AWS Cloud
+<br>
 
 ## License
 
