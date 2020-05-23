@@ -14,12 +14,14 @@ To gain a deeper understanding of Python syntax and utilizing the Django framewo
 * Python v3.8.2+
 * BootStrap v4.4+
 * Microsoft Visual Studios Code v1.43+
-* django-crispy-forms - Allows developer the control of the rendering behavior of Django forms.
-  * (*Documentation* https://django-crispy-forms.readthedocs.io/en/latest/)
+
 
 ## API Reference
 Python Pillow
    * (*Documentation* https://python-pillow.org/)
+Django-Crispy-Forms
+* django-crispy-forms - Allows developer the control of the rendering behavior of Django forms.
+  * (*Documentation* https://django-crispy-forms.readthedocs.io/en/latest/)
 
 ## Demo
 
